@@ -16,6 +16,6 @@ class Video(File):
     @classmethod
     def matches_file_type(cls, iname, ifile, request):
         # the extensions we'll recognise for this file type
-        filename_extensions = ['.dv', '.mov', '.mp4', '.avi', '.wmv', ]
+        filename_extensions = ['.dv', '.mov', '.mp4', '.avi', 'mpeg', '.wmv', '.flv']
         ext = os.path.splitext(iname)[1].lower()
         return ext in filename_extensions
