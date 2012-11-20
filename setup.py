@@ -30,6 +30,6 @@ setup(
     ],
     install_requires=[
         'django>=1.3',
-        'django-filer',
+        'django-filer>=0.9',
     ],
 )
